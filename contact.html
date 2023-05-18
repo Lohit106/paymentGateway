@@ -9,13 +9,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>About us</title>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Sparks Donation</a>
+            <div class="icon">
+                <img src="images/donatlogo.png" class="logo"></img>
+            </div>
+            <a class="navbar-brand" href="index.html" style="padding-left: 1%; font-size: xx-large; ">Sparks Donation</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -31,6 +35,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <form style="margin-left: 18px;"><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_LlyKw0nAqtQSVj" async> </script> </form>
                     </li>
                 </ul>
 
@@ -66,7 +73,7 @@
                     </div>
                     <div class="box">
                         <div class="icon">
-                            <i class="fa-solid fa-envelope"></i>
+                            <a href="mailto:info@thesparksfoundation.sg" class="fa-solid fa-envelope"></a>
                         </div>
                         <div class="text">
                             <h3>Email</h3>
@@ -102,6 +109,14 @@
             <br>
         </div>
     </section>
+    <footer class="links">
+        <span> <a href="https://www.facebook.com/thesparksfoundation.info" class="fa fa-facebook" target="_blank"></a> </span>
+        <span> <a href="https://www.linkedin.com/company/the-sparks-foundation/" class="fa fa-linkedin" target="_blank"></a> </span>
+        <span> <a href="https://www.instagram.com/thesparksfoundation.info/" class="fa fa-instagram" target="_blank"></a> </span>
+    </footer>
+    <footer class="cpy">
+        <p>&#169;Spark Foundation, The Spark Foundation 2023</p>
+    </footer>
     <script>
         function myFunc() {
             var myinput = document.getElementById("bob");
